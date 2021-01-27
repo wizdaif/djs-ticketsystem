@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/ghoststools/djs-ticketsystem"
   },
-  "deprecated": false
+  "deprecated": false,
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
