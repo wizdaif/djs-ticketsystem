@@ -4,6 +4,9 @@
   "private": true,
   "description": "DJS-TicketSystem is a package designed to make creating \"tickets\" in discord servers easier.",
   "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon dev/index.js"
+  },
   "dependencies": {
     "discord.js": "^12.5.1"
   },
