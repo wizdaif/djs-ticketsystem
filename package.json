@@ -25,13 +25,13 @@
   ],
   "author": "GHOST",
   "license": "ISC",
-  "homepage": "https://github.com/ghostdevv/djs-ticketsystem",
+  "homepage": "https://github.com/ghoststools/djs-ticketsystem",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghostdevv/djs-ticketsystem"
+    "url": "git+https://github.com/ghoststools/djs-ticketsystem"
   },
   "bugs": {
-    "url": "https://github.com/ghostdevv/djs-ticketsystem"
+    "url": "https://github.com/ghoststools/djs-ticketsystem"
   },
   "deprecated": false
 }
