@@ -15,7 +15,7 @@ NodeJS >= v12.x
 ```
 
 # Install
-```
+```bash
 npm install djs-ticketsystem
 ```
 
