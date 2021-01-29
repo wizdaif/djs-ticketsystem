@@ -11,15 +11,12 @@ class TicketSystem {
         this._client = client;
         this._options = new TicketSystemOptions(options);
 
-        const structures = require('../Structures');
-
-        for (const structure of structures) {
-            structure({
-                client,
-                ticketSystem: this,
-            });
-        }
+        require('../Client/Client.js')({
+            client,
+            ticketSystem: this,
+        });
     }
+}
 }
 
 module.exports = TicketSystem;
