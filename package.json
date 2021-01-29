@@ -8,8 +8,8 @@
     "dev": "nodemon dev/index.js",
     "test": "jest --verbose --testEnvironment node"
   },
-  "dependencies": {
-    "discord.js": "^12.5.1"
+  "peerDependencies": {
+    "discord.js": ">=12.x"
   },
   "keywords": [
     "djs",
