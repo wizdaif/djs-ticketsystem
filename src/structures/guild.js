@@ -105,9 +105,11 @@ Structures.extend('Guild', (Guild) => {
                                         options.openMessage.text,
                                         svconfig,
                                     ),
-                                    embed: stringvar(
+                                    embeds: [
+                                        stringvar(
                                         options.openMessage.embed,
                                         svconfig,
+                                    ]
                                     ),
                                 });
                                 resolve(ticket);
