@@ -1,19 +1,8 @@
-const { Structures, MessageEmbed } = require('discord.js');
+const { MessageEmbed } = require('discord.js');
 const { stringvar, optionsHelper } = require('../helpers');
 const clonedeep = require('lodash.clonedeep');
 
-Structures.extend('Guild', (Guild) => {
-    /**
-     * Extends the Guild class to implement ticket system methods.
-     * @extends {Guild}
-     */
-
-    class ticketSystemGuild extends Guild {
-        constructor(client, data) {
-            super(client, data);
-        }
-
-        /**
+/**
          * Creates a ticket.
          * @param {Object} [options] Options for creating a ticket
          * @param {string} [options.name='ticket-{OWNER.USERNAME}'] The name of the ticket
@@ -123,7 +112,3 @@ Structures.extend('Guild', (Guild) => {
                     .catch(reject);
             });
         }
-    }
-
-    return ticketSystemGuild;
-});
